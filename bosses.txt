@@ -1,0 +1,36 @@
+White Mage
+-----------
+-Will have guards (Probably 2 guards)
+-Heals the guards as they take damage
+	-Repeats until out of MP
+
+Ends:
+-White Mage invulnerable until guards are dead
+or
+-Fight ends when guards are dead
+
+Black Mage
+-----------
+-Can fly to get out of reach
+	-Will swoop down and if player hits with melee, will fall to ground and be stunned for a moment
+-Make objects rain down on the player
+-When landed, fire big projectile horizontally
+
+-Maybe make em shoot multiple projectiles with one that can be deflected with melee attack that'll also make the boss fall to the ground and be stunned.
+
+Knight
+--------
+-Have Shield that will block projectiles
+	-Can only be hit by melee attacks
+-Maybe have the wrecking ball
+-Maybe have em throw the shield like a boomerang and during that time be vulnerable to projectiles
+
+Final Boss
+-----------
+-Fire bunch of projectiles at random angles within a range
+-Have pitfalls since all other boss battles have been a flat ground
+-Have platforms to traverse through the area
+-Fire a stream of projectiles tracked on the player to make em use the platforms to avoid them
+-Spawns enemies around the player that move in slowly
+-Be able to move to specific locations in the area
+-Add a HP/MP spawner around the area

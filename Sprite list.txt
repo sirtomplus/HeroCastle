@@ -1,0 +1,59 @@
+Soldier Sprite
+-Run
+-Death
+
+Mage Boss Sprite
+-Casting
+-Cast
+-Fly
+-Swoop
+-Dizzy
+-Teleport Effect
+
+
+Shooter
+Soldier Sprite
+-Have either gun/bow/xbow
+
+Barrel Roller
+SoldierSprite
+-Roll barrel
+-Barrel Sprite
+
+
+Fairy Sprite
+-Flap wings
+-Death
+
+Zombie Sprite
+-Spawn
+-Run
+-Death
+
+Dog
+-Run
+
+Plant Sprite
+-Wiggle
+-Shoot?
+
+Vulture and Bat Sprite
+-Flap
+-Sit
+-Swoop
+
+HammerBros
+Soldier Sprite
+-Throw
+
+
+Golem Sprite
+-Walk
+-Death
+
+Hopper Sprite
+-Hop
+
+Rat Sprite
+-Run
+-Death

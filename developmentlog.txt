@@ -1,0 +1,527 @@
+2014-05-06
+===========
+
+This Week's Objectives
+-----------------------
+
+* Make the video for submission 10.0
+	> Plan out what to show
+	> Maybe make a separate level just for footage
+	> Record footage, audio
+	> Edit video
+* [Added] Added sprites to some enemies and props as placeholders ( 2.0 )
+
+
+2014-05-04
+===========
+
+This Week's Objectives
+-----------------------
+
+* Make the video for submission 10.0
+	> Plan out what to show
+	> Maybe make a separate level just for footage
+	> Record footage, audio
+	> Edit video
+
+
+Previous Week's Objectives
+-----------------------
+
+* [Not Completed] Create a sequence of events for after defeating the final boss 5.0
+* [Completed] Get BGM for the title menu 1.0 ( 0.5 )
+* [Added] Key icons added to pause menu ( 0.5 )
+	> Adjusted the placement a bit to look better on other resolutions
+* [Added] Fixed getting stuck on some platforms in Basement Scene ( 1.5 )
+* [Added] Running into the final door without meeting the requirements will display text to notify the player what to do ( 0.5 )
+* [Added] Had the flames from the firebottle throw an exception if the enemy wasn't destroyed fromt he damage from the flames ( 0.5 )
+	> The flames do damage to everything inside an Arraylist.  When the enemy is destroyed by another object, it won't be removed from the Arraylist which causes a MissingReferenceException.  The Arraylist will then Clear itself to not be kept in an infinite loop.
+* [Added] Many platforms were getting the player stuck.  Had to add in a collider at the edge of every  platform that had no friction. ( 2.0 )
+
+
+2014-04-27
+===========
+
+This Week's Objectives
+-----------------------
+
+* Create a sequence of events for after defeating the final boss 5.0
+* [Completed] Get BGM for the title menu 1.0
+
+
+Previous Week's Objectives
+-----------------------
+
+* [Completed] Implement the final boss 4.0 ( 2.5 )
+* Add in some hidden items into each area such as HPBoosts and MPBoosts 2.0
+* [Completed] Make the credits page 2.0 ( 1.0 )
+	> Either use a picture or render using unity's GUI class
+* [Completed] Improve the pause menu 4.0 ( 2.0 )
+	> Show the player's inventory ( keys, weapons, etc )
+* [Added] Placed more artwork in cemetary level ( 1.5 )
+
+
+2014-04-19
+===========
+
+This Week's Objectives
+-----------------------
+
+* Implement the final boss 4.0
+* Add in some hidden items into each area such as HPBoosts and MPBoosts 2.0
+* Make the credits page 2.0
+	> Either use a picture or render using unity's GUI class
+* Improve the pause menu 4.0
+	> Show the player's inventory ( keys, weapons, etc )
+* Change the MPBar to diplay an int instead 2.0
+
+
+Previous Week's Objectives
+-----------------------
+
+* [Not Completed] Design and implement final boss 8.0 ( 2.0 )
+	> Design completed
+* [Completed] Add in BGM to all areas 2.0 ( 1.0 )
+* [Completed] Implement an options menu 6.0 ( 2.5 )
+	> Be able to change the volume of the game
+	> Show the key configurations ( No changing key bindings for now )
+	> Move the delete save data button to the options menu
+	> Move the credits button to the options menu
+	> Maybe toggle between fullscreen and windowed mode
+* [Added] Animations working with test spritesheets ( 1.0 )
+
+
+2014-04-13
+===========
+
+This Week's Objectives
+-----------------------
+
+* Design and implement final boss 8.0
+* Add in BGM to all areas 2.0
+* Implement an options menu 6.0
+	> Be able to change the volume of the game
+	> Show the key configurations ( No changing key bindings for now )
+	> Move the delete save data button to the options menu
+	> Move the credits button to the options menu
+	> Maybe toggle between fullscreen and windowed mode
+
+
+Previous Week's Objectives
+-----------------------
+
+* [Completed] Finish up the last playable area 3.0 ( 1.0 )
+	> Done but maybe spice it up a little bit
+* [Completed] Design and implement another boss 8.0 ( 4.5 )
+	> Knight boss
+* [Completed] Create more sfx and find some suitable bgm 3.0 ( 0.5 )
+	> Need SFX for hitting enemies and shooting
+* [Added/Completed] Tagged ground in scenes where I forgot to tag ( 0.5 )
+* [Added] Ground textures for cemetary area added ( 0.25 )
+
+
+2014-04-06
+===========
+
+This Week's Objectives
+-----------------------
+
+* Finish up the last playable area 3.0
+* Design and implement another boss 8.0
+	> Knight boss
+* Create more sfx and find some suitable bgm 3.0
+	> Need SFX for hitting enemies and shooting
+
+Previous Week's Objectives
+-----------------------
+
+* [Completed] Add enemies to basement area 4.0 ( 1.5 )
+* [Ongoing] Create more sfx and find some suitable bgm 3.0 ( 1.0 )
+	> Got BGM working just need to find more to fill in all areas
+* [Ongoing] Implement 1 more playable area 6.0 ( 1.0 )
+	> Layout is completed but need to add in enemies
+* [Completed] Add checkpoints that will autosave the location for when the player dies 2.0 ( 1.5 )
+* [Added] Added sprites for some platforms and health drops ( 1.0 )
+
+
+2014-04-01
+===========
+
+This Week's Objectives
+-----------------------
+
+* Add enemies to basement area 4.0
+* Create more sfx and find some suitable bgm 3.0
+* Implement 1 more playable area 6.0
+* Add checkpoints that will autosave the location for when the player dies 2.0
+
+
+Previous Week's Objectives
+-----------------------
+
+* [Ongoing] Implement more playable areas 8.0 ( 3.5 )
+	> Continue work on basement area
+	> Basement Layout Done
+* [Completed]Must continue to test current content because of camera changes 3.0 ( 1.0 )
+	> Everything works but may need to slow down some projectiles/enemies due to lower field of vision
+* [Not Completed] Create more sfx and find some suitable bgm 3.0
+	> Opengameart will be a good place for bgm, possibly find others
+* [Not Completed] Design next boss 6.0
+	> Thief/Ninja boss
+* [Completed] Fixed rare bug that occurs when scenes load slow and the gamemaster tries to find a spawnpoint but it hasn't loaded yet causing the player to be thrown into the abyss 1.0 ( 0.5 )
+	> Try placing the find spawn and movetospawn to LateUpdate()
+	> Bug hasn't come up since change but was a rare occurence to begin with
+* [Completed] Working Xbox360 controller input on my Windows PC ( 0.5 )
+	> Need to test on Mac and other PCs
+* [Removed] Moving Platforms ( 1.0 )
+	> Keeping the player on with friction is not good because the player can't move properly while on it.
+	> Making the player a child of the moving platform worked but doesn't always detect when the player leaves the platform
+* [Added/Completed] Items that will increase players max HP and MP ( 1.0 )
+
+
+Previous Week's Objectives
+-----------------------
+
+* [Ongoing] Implement more playable areas 8.0 ( 3.0 )
+	> Complete the current work in progress and begin the next area immediately
+* [Completed] Implement a Boss for next area 6.0 ( 6.0 )
+* [Ongoing] Create some soundeffects using some sort of synthesizer 3.0 ( 1.0 )
+	> Only need a few to test how to implement soundeffects into Unity
+	> Using bfxr to make sfx
+	> Implementing was easy but creating something I like is difficult.
+* [Completed] Change the way a new game is started 3.0 ( 1.0 )
+	> Currently deletes all data immediately, but I want it to delete saved data when the player saves
+	> Will have to look over what is being saved when and where to make sure that everything is being saved when the save function is called
+* [Completed/Added] Can jump through platforms from below by ignoring collision detection if they player's velocity in the y direction is positive ( 1.0 )
+	> Bugs in some cases when double jumping or getting hit in the air
+* [Completed/Added] Camera now follows player more smoothly ( 0.5 )
+	> Turned out easeIn functions weren't necessary because Unity already has linear interpolation and by putting it in LateUpdate(), it will follow after the player has already moved
+* [Completed] Camera zoomed in more so player is more visible ( 1.5 )
+	> Speed changes on some enemies/projectiles to make up for the reduction in vision
+	> Dash added back in because less spammable when there is less vision
+* [Completed] Added in some Sprites 0.5
+	> Player's sprite added in, no animations
+	> 1 Object added in
+
+2014-03-16
+===========
+
+This Week's Objectives
+-----------------------
+
+* Implement more playable areas 8.0
+	> Complete the current work in progress and begin the next area immediately
+* Implement a Boss for next area 6.0
+* Create some soundeffects using some sort of synthesizer 3.0
+	> Only need a few to test how to implement soundeffects into Unity
+* Change the way a new game is started 3.0
+	> Currently deletes all data immediately, but I want it to delete saved data when the player saves
+	> Will have to look over what is being saved when and where to make sure that everything is being saved when the save function is called
+
+Previous Week's Objectives
+-----------------------
+
+* [Completed] Create an enemy that patrols back and forth 1.5 ( 1.0 )
+* [Completed] Attach a secondary collider to enemies that use their own collider to damage the player 2.0 ( 1.5 )
+	> Currently enemies that use their own collider to damage the player and receive damage cause the player to not blink when taking damage.  This might fix it.
+	> Attaching another collider didn't fix it but disabling the collider briefly on collision works.  Secondary collider is still necessary for those that obey gravity so when disabling the collider, the object doesn't fall through the ground.
+* [Not Completed] Implement another playable area 6.0 ( 3.0 )
+* [Not Completed] Implement a Boss for next area 6.0
+* [Completed] Kill the player differently 3.0 ( 1.5 )
+	> Currently destroys gameObject which leads to errors when there are other objects referencing the player object ( Targetting enemy in boss fight )
+	> Just make the player unable to move
+	> Will need to store information of the player at each checkpoint to reload the player's state at that given time
+* [Completed/Added] Pendulum like object 1.0
+	> Swings back and forth and can damage the player
+	> Used HingeJoint2D to get the rotations
+* [Completed/Added] Health and MP Bars ( 2.0 )
+* [Completed/Added] Changed pathing of MedusaHeads to move along a Sine Wave ( 1.0 )
+* [Completed/Added] Altered jump arc of player and rearranged WestWing Scene to accomodate the new jump arc ( 1.5 )
+* [Completed/Added] Added jump component that can be added to enemy objects to make them repeatedly jump ( 0.5 )
+
+
+2014-03-09
+===========
+
+Previous Week's Objectives
+-----------------------
+
+* [Completed] Allow Player to move through enemies during invincibility from hit 1.0 ( 2.0 )
+	> Change the layer of collision detection the player is on
+	> Works on most enemies?  Behaves strangely on medusaheads
+	> Tom
+* [Completed] Title menu 6.0 ( 3.5 )
+	> Menu in the the beginning of the game
+	> Have a start game, Continue, Controls, Credits button
+	> Start game will begin the game from the beginning
+	> Continue will load from last save ( Save files will need to be done before this works )
+	> Controls will show the game controls
+	> Credits shows names of who worked on this project
+	> Starting a new game deletes all saved data ( Should have it prompt before starting )
+	> Tom
+* [Completed] Spawners 3.0 ( 3.0 )
+	> Spawners will instantiate enemies with an offset from the spawner location when the player has come within a set distance
+	> Tom
+* [Completed] Save files 8.0 ( 3.5 )
+	> Save the Player's inventory
+	> The current room the player is in
+	> The last spawnpoint the player used
+	> The player's current HP/MP
+	> Tom
+* [Completed] Do stuff when the player dies 2.0 ( 1.5 )
+	> Wait for player input before respawning
+	> Tom
+* [Added] Put together gameplay up to 1 boss 6.0 ( 2.5 )
+	> Place enemy objects according to levellayout.txt
+	> Place items onto the level
+	> Link the first scene to a boss scene using a door object
+	> Tom
+* [Added] Player Blinks when hit and is invincible for a set amount of time ( 1.0 )
+	> Tom
+* [Added] Camera is set on the player when changing scenes instead of waiting then panning to the player ( 0.5 )
+* [Added] Changes to player controls ( 0.5 )
+	> Dash removed, movement speed increased
+	> GravityScale of player increased to make it less floaty when jumping
+* [Added] Pause Menu ( 1.0 )
+	> Press "Start" will open/close pause menu during game
+	> Save Button in pause menu will save the current scene, last spawnpoint used, and player data ( inventory )
+	> Exit Game button will go back to main menu
+
+This Week's Objectives
+-----------------------
+
+* Create an enemy that patrols back and forth 1.5
+* Attach a secondary collider to enemies that use their own collider to damage the player 2.0 
+	> Currently enemies that use their own collider to damage the player and receive damage cause the player to not blink when taking damage.  This might fix it.
+* Implement another playable area 6.0
+* Implement a Boss for next area 6.0
+* Kill the player differently 3.0
+	> Currently destroys gameObject which leads to errors when there are other objects referencing the player object ( Targetting enemy in boss fight )
+	> Just make the player unable to move
+	> Will need to store information of the player at each checkpoint to reload the player's state at that given time
+
+
+2014-03-02
+===========
+
+Previous Weeks's Objectives
+-----------------------
+
+* [Not Completed] Enemy that follows the player and rams into the player 2.0
+	> Look into Joints/Hinges to
+	> Finish on Monday
+	> Minh
+* [Not Completed] Enemy that revives after a set amount of time when killed 1.0
+	> Minh
+* [Completed] First Boss 4.0 ( 4.0 )
+	> Implement a heal mechanic
+	> Give the charger a melee attack
+	> Make the flyer shoot faster or more bullets when getting close to defeat
+	> Tom
+* [Completed] Overhaul of the ranged attack of the player 8.0 ( 3.5 )
+	> Instead of just pressing a button to fire a bullet, pressing the button and a direction will do a different ranged attack.
+	> Button by itself will be a straight shot
+	> Up + Button will burn set first to the ground in front
+	> Down + Button will first projectiles in multiple directions
+	> All attacks will share a common resource
+	> Tom
+* [Completed] Make inventory enable components (doublejump, dash) at Start 2.0 ( 0.5 )
+	> Tom
+* [Not Completed] Do stuff when the player dies 3.0 ( 1.5 )
+	> Kill the player when HP reaches 0
+	> Display some kind of GAME OVER screen
+	> Wait for player input before respawning
+	> Tom
+* [Completed/Added] Transition between scenes ( 1.5 )
+	> Wasn't actually working from before
+	> Should work OK now
+	> Tom
+
+This Week's Objectives
+-----------------------
+
+* Allow Player to move through enemies during invincibility from hit 1.0
+	> Change the layer of collision detection the player is on
+	> Tom
+* Title menu 6.0
+	> Menu in the the beginning of the game
+	> Have a start game, Continue, Controls, Credits button
+	> Start game will begin the game from the beginning
+	> Continue will load from last save ( Save files will need to be done before this works )
+	> Controls will show the game controls
+	> Credits shows names of who worked on this project
+	> Tom
+* Spawners 3.0
+	> Spawners will instantiate enemies with an offset from the spawner location when the player has come within a set distance
+	> Tom
+* Save files 8.0
+	> Save the Player's inventory
+	> The current room the player is in
+	> The last spawnpoint the player used
+	> The player's current HP/MP
+	> Tom
+
+2014-02-23
+===========
+
+Previous Week's Objectives
+-----------------------
+
+* [Not Completed] Enemy that follows the player and rams into the player 2.0 ( 2.0 )
+	> Look into Joints/Hinges to
+	> Minh
+* [Not Completed] Enemy that revives after a set amount of time when killed 1.0
+	> Minh
+* [Completed] Implement an inventory 2.0 ( 1.0 )
+	> Checks if the player has a certain key
+	> Checks if player has a certain power up like dashing, doublejump, weapons, etc.
+	> Tom
+* [Completed] Figure out a way to remember which door the player is going through 4.0 ( 2.5 )
+	> Probably instead of including the player in the scene, spawn the player using a game master object to remember which scene the player is in and where he/she will be going.
+	> Tom
+* [Completed] Make enemies drop stuff 1.0 ( 1.0 )
+	> Health recovery, more ammo, etc.
+	> Tom
+* [Completed] Create a projectile weapon that will go forward a set distance and come back to the player 1.5 ( 1.0 )
+	> Tom
+* [Completed] Improve the melee attack 3.0 ( 0.25 )
+	> Attach the hitbox to the limb of the player and enable/disable the hitbox when the player is attacking
+	> Tom
+* [Unfinished] Improve the moving platforms 4.0
+	> Currently using force to move and friction to keep player in place, but causes a problem because too much force is required to keep the player on the platform.  This makes it so the player cannot move while on the platform other than jumping.
+	> Tom
+* [Completed] Implement a double jump 2.0 ( 0.5 )
+	> Tom
+* [Unfinished] Implement an airdash 1.5
+	> Tom
+* [Not Completed] Implement the first boss 8.0 ( 5.0 )
+	> Tom
+
+This Week's Objectives
+-----------------------
+
+* Enemy that follows the player and rams into the player 2.0
+	> Look into Joints/Hinges to
+	> Minh
+* Enemy that revives after a set amount of time when killed 1.0
+	> Minh
+* First Boss 4.0
+	> Implement a heal mechanic
+	> Give the charger a melee attack
+	> Make the flyer shoot faster or more bullets when getting close to defeat
+	> Tom
+* Overhaul of the ranged attack of the player 8.0
+	> Instead of just pressing a button to fire a bullet, pressing the button and a direction will do a different ranged attack.
+	> Button by itself will be a straight shot
+	> Up + Button will burn set first to the ground in front
+	> Down + Button will first projectiles in multiple directions
+	> All attacks will share a common resource
+	> Tom
+* Make inventory enable components (doublejump, dash) at Start 2.0
+	> Tom
+* Do stuff when the player dies 3.0
+	> Kill the player when HP reaches 0
+	> Display some kind of GAME OVER screen
+	> Wait for a little bit and respawn to last spawn point
+	> Tom
+
+
+2014-02-16
+===========
+
+Previous Week's Objectives
+-----------------------
+
+* [Completed] Enemies 5.0 ( 4.5 )
+	> Enemy that will crush the player
+	> Have enemies choose from options such as move a few steps forwards or backwards, jump, and add a leash so enemies don't wander from their original position
+	> Enemies begin acting when entering a plane surrounding the camera
+	> Design the first boss
+* [Completed] Level layout 8.0 ( 5.0 )
+	> Plan out the Upper and Right levels
+	> Add enemies into empty areas
+* [Completed] Figure how to do smooth scene transitions 2.0 ( 1.75 )
+	> Split the castle into smaller scenes
+
+This Week's Objectives
+-----------------------
+* Enemy that follows the player and rams into the player 2.0
+	> Look into Joints/Hinges to
+	> Minh
+* Enemy that revives after a set amount of time when killed 1.0
+	> Minh
+* Implement an inventory 2.0
+	> Checks if the player has a certain key
+	> Checks if player has a certain power up like dashing, doublejump, weapons, etc.
+	> Tom
+* Figure out a way to remember which door the player is going through 4.0
+	> Probably instead of including the player in the scene, spawn the player using a game master object to remember which scene the player is in and where he/she will be going.
+	> Tom
+* Make enemies drop stuff 1.0
+	> Health recovery, more ammo, etc.
+	> Tom
+* Create a projectile weapon that will go forward a set distance and come back to the player 1.5
+	> Tom
+* Improve the melee attack 3.0
+	> Attach the hitbox to the limb of the player and enable/disable the hitbox when the player is attacking
+	> Tom
+* Improve the moving platforms 4.0
+	> Currently using force to move and friction to keep player in place, but causes a problem because too much force is required to keep the player on the platform.  This makes it so the player cannot move while on the platform other than jumping.
+	> Tom
+* Implement a double jump 2.0
+	> Tom
+* Implement an airdash 1.5
+	> Tom
+* Implement the first boss 8.0
+	> Tom
+
+
+2014-02-09
+===========
+
+Previous Week's Objectives
+---------------------------
+
+* [Completed] Learn Unity's 2D animation tools. 3.0 ( 1.0 )
+	> View Unity's tutorial videos
+	> Use Unity's example assets to test
+* [Ongoing] Plan and implement a level layout 8.0 ( 6.25 )
+	> Rough sketch of what the level will look like
+	> Create a scene with the layout using primitives
+* [Ongoing] Create some enemies 3.0 ( 3.5 )
+	> Enemy that bobs up and down
+	> Enemy that shoots a projectile that travels along a line
+	> Enemy that shoots a projectile that arcs
+
+This Week's Objectives
+-----------------------
+
+* Enemies 5.0
+	> Enemy that will crush the player
+	> Enemy that circles the player and rams into the player
+	> Have enemies choose from options such as move a few steps forwards or backwards, jump, and add a leash so enemies don't wander from their original position
+	> Enemies begin acting when entering a plane surrounding the camera
+	> Design the first boss
+* Level layout 8.0
+	> Plan out the Upper and Right levels
+	> Add enemies into empty areas
+* Figure how to do smooth scene transitions 2.0
+	> Split the castle into smaller scenes
+
+
+2014-02-03
+===========
+
+This Week's Objectives
+-----------------------
+
+* Learn Unity's 2D animation tools. 3.0
+	> View Unity's tutorial videos
+	> Use Unity's example assets to test
+* Plan and implement a level layout 8.0
+	> Rough sketch of what the level will look like
+	> Create a scene with the layout using primitives
+* Create some enemies 3.0
+	> Enemy that bobs up and down
+	> Enemy that shoots a projectile that travels along a line
+	> Enemy that shoots a projectile that arcs
