@@ -1,5 +1,4 @@
 Tom Pham
-tomphamhd@csu.fullerton.edu
 
 
 Hero Castle
@@ -28,7 +27,7 @@ Features
 
 Credits
 --------
-Duc Pham - Character Artist
+Duc Pham - Character Artist?
 Tam Ngo - Environment/Prop Artist
 Minh Hoang - Programmer
 
